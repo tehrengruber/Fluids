@@ -1,6 +1,9 @@
-;; Load 3rd party packages
-(ql:quickload :3d-vectors)
-(use-package :3d-vectors)
+#|
+ This file is a part of Flint
+ Author: Till Ehrengruber <till@ehrengruber.ch>
+|#
+
+(in-package #:fluids)
 
 ;;
 ;; Parameter
